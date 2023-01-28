@@ -1,4 +1,6 @@
 # dwmblocks-async
+Custom config of dwmblocks-async --original project below:
+
 A modular statusbar for `dwm` written in C. You may think of it as `i3blocks`, but for `dwm`.
 
 ![A lean config of dwmblocks-async.](preview.png)
