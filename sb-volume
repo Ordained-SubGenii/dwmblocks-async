@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+red_txt=$'\e[31mMute!\e[0m'
+volume="$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '{print $NF*100 "%"}')"
+  
+#if [[ $volume == "0%" ]]; then 
+#	echo ${red_txt} && continue
+#else
+#	echo "Vol:$volume"
+#fi
+
+echo "Vol:$volume"
+

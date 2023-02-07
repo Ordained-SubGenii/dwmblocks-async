@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+cyan=$'\e[36m'
+
+DATE="$(date '+%a %D %R')"
+
+echo "$DATE"
+
