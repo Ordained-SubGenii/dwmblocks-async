@@ -1,5 +1,5 @@
 #define CMDLENGTH 50
-#define DELIMITER " | "
+#define DELIMITER "  "
 #define SCRIPTS_DIR "/opt/dwmblocks-async/statusbar/"
 
 const Block blocks[] = {
