@@ -1,11 +1,10 @@
 #define CMDLENGTH 50
-#define DELIMITER "  "
-#define SCRIPTS_DIR "/opt/dwmblocks-async/statusbar/"
+#define DELIMITER "󰇝"
 
 const Block blocks[] = {
-	BLOCK("sb-wifi",    30,    0),
-	BLOCK("sb-df",      420,   0),
-  BLOCK("sb-volume",   0,    5),
-	BLOCK("sb-battery", 60,    0),
-	BLOCK("sb-date",    60,    0),
+	BLOCK("/opt/dwmblocks-async/statusbar/sb-wifi",    30,    2),
+	BLOCK("/opt/dwmblocks-async/statusbar/sb-df",      420,   3),
+  BLOCK("/opt/dwmblocks-async/statusbar/sb-volume",   0,    5),
+	BLOCK("/opt/dwmblocks-async/statusbar/sb-battery", 60,    0),
+	BLOCK("/opt/dwmblocks-async/statusbar/sb-date",    60,    0),
 };
